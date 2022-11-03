@@ -8,20 +8,25 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <title>Novo Projeto</title>
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 </head>
+
 <body>
 
   <nav>
     <div class="logo">
-      <h4>Teste</h4>
+      <h4>MILTON</h4>
     </div>
 
     <ul class="nav-links">
       <li><a href="#">Início</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Missão</a></li>
-      <li><a href="#">Portifólio</a></li>
-      <li><a href="#">Contatos</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#experience">Experiência</a></li>
+      <li><a href="#services">Seviços</a></li>
+      <li><a href="#port">Portifólio</a></li>
+      <li><a href="#contact">Contatos</a></li>
     </ul>
     
     <div class="burger">
@@ -31,14 +36,309 @@
     </div>
   </nav>
 
+  <header class="header">
+    <div class="container head">
+      <div class="head-left">
+        <h3>Oi, meu nome é </h3>
+        <h1>Milton Uaiene</h1>
+        <p>
+          Sou estudante de Programação Web, e actualmente trabalho como Desenvolvedor Front-end.
+        </p>
+        <a href="#contact" class="btn">Contacte-me</a>
+      </div>
+      <div class="head-right">
+        <img src="img/03.png">
+      </div>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <h2>Sobre Mim</h2>
+    <div class="about-all container">
+      <div class="about-left">
+        <img src="img/01.png">
+      </div>
+
+      <div class="about-right">
+        <div class="about-items">
+        <article class="about-item">
+          <i class="fa-solid fa-book"></i>
+          <h1>Experiência</h1>
+          <h3>+1 Ano de Trabalho</h3>
+        </article>
+        <article class="about-item">
+          <i class="fa-sharp fa-solid fa-pen"></i>
+          <h1>Clientes</h1>
+          <h3>+10 Clientes</h3>
+        </article>
+        <article class="about-item">
+          <i class="fa-solid fa-laptop"></i>
+          <h1>Projectos</h1>
+          <h3>+20 Feitos</h3>
+        </article>
+      </div>
+      <p>Sou formado na Escola Nacional de Aeronautica em Informatica e Telecomunicacoes, actualmento estou me especializando em Desenvolvimento Web (online) <br> <br>Tenho feito alguns projectos individuais e estou em busca de uma primeira oportunidade profissional na área Informática e Programação Front-end.</p>
+        <a href="img/cv.pdf" download class="btn">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+      <h2>Minhas Experiência</h2>
+
+      <div class="container experience-container">
+        <div class="experience-frontend">
+          <h3>Tecnologias Front-end</h3>
+          <div class="experience-content">
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>HTML</h4>
+                <small class='text-light'>Experiente</small>
+              </div>
+            </article>
+
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>CSS</h4>
+                <small class='text-light'>Experiente</small>
+              </div>
+            </article>
+
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>JavaScript</h4>
+                <small class='text-light'>Intermediário</small>
+              </div>
+            </article>
+
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>React.Js</h4>
+                <small class='text-light'>Intermediário</small>
+              </div>
+            </article>
+
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>BootStrap</h4>
+                <small class='text-light'>Intermediário</small>
+              </div>
+            </article>
+
+            <article className='experience-details'>
+            <BsPatchCheckFill className='experience-details-icon' />
+              <div>
+                <h4>Wordpress</h4>
+                <small className='text-light'>Experiente</small>
+              </div>
+            </article>
+
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>Tailwinds</h4>
+                <small class='text-light'>Intermediário</small>
+              </div>
+            </article>
+          </div> 
+        </div>
+
+        <div class="experience-backend">
+          <h3>Outros Serviços</h3>
+          <div class="experience-content">
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>Digitador <br/>de Dados</h4>
+                <small class='text-light'>Experiente</small>
+              </div>
+            </article>
+
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+                <h4>Gestão de <br/>Redes Sociais</h4>
+                <small class='text-light'>Intermediário</small>
+              </div>
+            </article>
+
+            <article class='experience-details'>
+            <i class="fa-solid fa-star"></i>
+              <div>
+               <h4>Gestão de <br/>Base de Dados</h4>
+              <small class='text-light'>Intermediário</small>
+              </div>
+            </article>
+
+          </div> 
+        </div>
+      </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Meus Serviços</h2>
+    <div class="service container">
+      <article class="service-items">
+        <div class="service-item">Geral</div>
+        <div class="service-info">
+          <h3>Design Moderno de Websites</h3>
+          <h3>Conhecimento Mínimo de Photoshop</h3>
+          <h3>Getão de Base de Dados</h3>
+          <h3>Getão de Redes Sociais</h3>
+        </div>
+      </article>
+
+      <article class="service-items">
+        <div class="service-item">Frontend</div>
+        <div class="service-info">
+          <h3>Design Moderno de Websites</h3>
+          <h3>Conhecimento das Principais Tecnologias Frontend</h3>
+          <h3>Conhecimento das Bibliotecas Frontend</h3>
+          <h3>Responsividade de websites</h3>
+          <h3>Boas Práticas no Desenvolvimento de Websites</h3>
+        </div>
+      </article>
+
+      <article class="service-items">
+        <div class="service-item">CMS's</div>
+        <div class="service-info">
+          <h3>Desenvolvimento de Websites com Wordpress</h3>
+          <h3>Gestor de Websites</h3>
+          <h3>Getão de Base de Dados</h3>
+          <h3>Apto para Aprender Novas Tecnologias</h3>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="port" id="port">
+    <h3>Meus Projectos</h3>
+    <div class="port-area container">
+      <article class='port-item'>
+          <div class="port-img">
+            <img src="img/04.jpg" />
+          </div>
+          <h3>Pizzaria</h3>
+          <div class="port-btn">
+            <a href='https://milton-augusto-uaiene.github.io/pizza/' class='btn'>Github</a>
+          </div>
+        </article>
+
+        <article class='port-item'>
+          <div class="port-img">
+            <img src="img/clima.jpg" />
+          </div>
+          <h3>Meteorologia em tempo Real</h3>
+          <div class="port-btn">
+            <a href='https://milton-augusto-uaiene.github.io/clima/' class='btn'>Github</a>
+          </div>
+        </article>
+
+        <article class='port-item'>
+          <div class="port-img">
+            <img src="img/relogio.jpg" />
+          </div>
+          <h3>Relogio Digital e Analógico</h3>
+          <div class="port-btn">
+            <a href='https://milton-augusto-uaiene.github.io/relogio/' class='btn'>Github</a>
+          </div>
+        </article>
+
+        <article class='port-item'>
+          <div class="port-img">
+            <img src="img/star.jpg" />
+          </div>
+          <h3>Starbug</h3>
+          <div class="port-btn">
+            <a href='https://milton-augusto-uaiene.github.io/starbug/' class='btn'>Github</a>
+          </div>
+        </article>
+
+       <article class='port-item'>
+          <div class="port-img">
+            <img src="img/web.jpg" />
+          </div>
+          <h3>Website</h3>
+          <div class="port-btn">
+            <a href='https://milton-augusto-uaiene.github.io/webawax/' class='btn'>Github</a>
+          </div>
+        </article>
+
+        <article class='port-item'>
+          <div class="port-img">
+            <img src="img/04.jpg" />
+          </div>
+          <h3>Pizzaria</h3>
+          <div class="port-btn">
+            <a href='https://milton-augusto-uaiene.github.io/pizza/' class='btn'>Github</a>
+          </div>
+        </article>
+    </div>   
+  </section>
 
 
+  <section class="contact" id="contact">
+    <h2>Contacte me</h2>
+    <div class="contact-area container">
+      <div class="contact-item">
+        <article class="contact-option">
+          <i class="fa-solid fa-envelope"></i>
+          <h4>Email</h4>
+          <h5>miltonaugusto137@gmail.com</h5>
+          <a href='#tu'>Enviar Menssagem</a>
+        </article>
 
+        <article class="contact-option">
+          <i class="fa-brands fa-facebook"></i>
+          <h4>Facebook</h4>
+          <h5>Facebook.com</h5>
+          <a href='https://www.facebook.com/miltonaugusto.torronto/'>Enviar Menssagem</a>
+        </article>
 
+        <article class="contact-option">
+          <i class="fa-brands fa-whatsapp"></i>
+          <h4>Whatsapp</h4>
+          <h5>(+258) 84 555 1452</h5>
+          <a href='https://api.whatsapp.com/send?phone+258845551452'>Enviar Menssagem</a>
+        </article>
+      </div>
 
+      <form action="https://formspree.io/f/xpznobvg" method="POST">
+        <input name='name' placeholder=' Nome Completo' required id='tu'/>
+        <input type="email" name='email' placeholder='Seu Email' required />
+        <textarea name='message' placeholder='Sua Menssagem' required rows='7'></textarea>
+        <button type='submit' class='btn'>Enviar Menssagem</button>
+      </form>
+    </div>
+  </section>
 
+  <footer>
 
-  
+      <a href='#' class='footer-logo'>Milton</a>
+
+      <ul class='perma-link'>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#about'>Sobre</a></li>
+        <li><a href='#services'>Services</a></li>
+        <li><a href='#portifolio'>Portifolio</a></li>
+        <li><a href='#contact'>contact</a></li>
+      </ul>
+
+      <div class="footer-socials">
+        <a href='facebook.com'><i class="fa-solid fa-envelope"></i></a>
+        <a href='https://www.facebook.com/miltonaugusto.torronto/'><i class="fa-brands fa-facebook"></i></a>
+        <a href='https://api.whatsapp.com/send?phone+258845551452'><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+
+      <div class="footer-copyright">
+        <small>Milton Augusto Uaiene</small>
+      </div>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>

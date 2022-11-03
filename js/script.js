@@ -1,5 +1,17 @@
 // CODIGO DO MENU
 
+(function () {
+    var menu = document.querySelector('nav'); // colocar em cache
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) menu.classList.add('menuFixo'); // > 0 ou outro valor desejado
+        else menu.classList.remove('menuFixo');
+    });
+})();
+
+
+
+
+
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
